@@ -7,8 +7,7 @@ public:
             time.push_back(1.0*dist[i]/speed[i]);
         
         sort(time.begin(), time.end());
-        // for(int i=0; i<n; i++)
-        //     cout<<time[i]<<" ";
+
         int monsters = 1;
         for(int i=1; i<n; i++){
             if(time[i]<=i)
